@@ -1,0 +1,281 @@
+h2{
+    color:black;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 70px;
+    background-color: #f8f9fa;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
+button{
+        
+         
+  background-color: #0ca678; 
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  border-radius: 4%;
+ 
+  
+}
+
+button:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#pro {
+  background-color: white;
+  width: 600px;
+  margin-top:30px;
+  margin-left:36px;
+}
+
+
+#pro1 {
+  background-color: #bac8ff;
+  height: 10px;
+  display: block;
+  animation: prog1 2s linear forwards;
+  animation-delay: 0.4s;
+  margin-top:90px;
+ 
+  
+}
+
+@keyframes prog1 {
+  0% {
+    width: 0%;
+  }
+  50%
+  {
+    width: 25%;
+    background-color: #4263eb;
+  }
+  100% {
+    width: 40%;
+    background-color: #364fc7;
+  }
+}
+
+
+
+#pro2 {
+  background-color: #ced4da;
+  height: 10px;
+  display: block;
+  animation: prog2 2s linear forwards;
+  animation-delay: 2s;
+  margin-top:70px;
+}
+
+@keyframes prog2 {
+  0% {
+    width: 0%;
+  }
+  50%
+  {
+    width: 30%;
+    background-color: #364fc7;
+  }
+  100% {
+    width: 61%;
+    background-color: #1c7ed6;
+  }
+}
+
+
+
+#pro3 {
+  background-color: #ced4da;
+  height: 10px;
+  display: block;
+  animation: prog3 3s linear forwards;
+  animation-delay: 4s;
+  margin-top:70px;
+}
+
+@keyframes prog3 {
+  0% {
+    width: 0%;
+  }
+  50%
+  {
+    width: 40%;
+    background-color: #12b886;
+  }
+  100% {
+    width: 80%;
+    background-color: #0b7285;
+  }
+}
+
+
+#pro4 {
+  background-color: #ced4da;
+  height: 10px;
+  display: block;
+  animation: prog4 2s linear forwards;
+  animation-delay: 6s;
+  margin-top:70px;
+}
+
+@keyframes prog4 {
+  0% {
+    width: 0%;
+  }
+  50%
+  {
+    width: 100%;
+    background-color: #12b886;
+  }
+  100% {
+    width: 100%;
+    background-color: #099268;
+  }
+}
+
+
+
+#abt{
+    font-size: 120px;
+  color: black;
+    margin-top: 80px;
+  font-family: 'Roboto Slab', serif;
+ text-shadow:
+    0 1px #808d93,
+    -1px 0 #cdd2d5,
+    -1px 2px #808d93,
+    -2px 1px #cdd2d5,
+    -2px 3px #808d93,
+    -3px 2px #cdd2d5,
+    -3px 4px #808d93,
+    -4px 3px #cdd2d5,
+    -4px 5px #808d93,
+    -5px 4px #cdd2d5,
+    -5px 6px black,
+    -6px 5px #cdd2d5,
+    -6px 7px #808d93,
+    -7px 6px #cdd2d5,
+    -7px 8px #808d93,
+    -8px 7px #cdd2d5;
+}
+
+
+p{
+  color:#212529;
+  font-size:23px;
+  padding-top:90px;
+ 
+}
+#txt{
+  color:black;
+  display: inline-block;
+  float:right;
+  font-family: 'Fira Sans', sans-serif;
+  font-size:20px;
+}
+
+
+#cont{
+background-image:url('l.jpg');
+height: 550px;
+background-size: cover;
+font-size: 100px;
+
+}
+
+#c1text{
+ color: white;
+ text-shadow:  0 10px 5px rgba(0,0,0,.2)
+ text-align: center;
+font-family: 'Arvo', serif;
+ padding-top: 190px;
+ padding-left: 270px;
+ 
+ 
+}
+
+#ctext{
+ color: white;
+ text-shadow:  0 10px 5px rgba(0,0,0,.2)
+ text-align: center;
+font-family: 'Arvo', serif;
+ padding-top: 190px;
+ padding-left: 270px;
+ animation: move_text 2s linear forwards;
+ overflow: hidden;
+ white-space: nowrap;
+ 
+}
+
+@keyframes move_text {
+  0% {
+    width: 0ch;
+    text-align: center;
+  }
+ 
+  100% {
+    width: 19ch;
+    
+  }
+}
+
+#maps{
+    margin-top:40px;
+    margin-left: 30px; 
+    
+}
+#loc
+{
+     font-size: 60px;
+  color: black;
+    margin-top: 90px;
+    margin-right: 20px;
+     font-family: 'Roboto Slab', serif;
+ text-shadow:
+    0 1px #808d93,
+    -1px 0 #cdd2d5,
+    -1px 2px #808d93,
+    -2px 1px #cdd2d5,
+    -2px 3px #808d93,
+    -3px 2px #cdd2d5,
+    -3px 4px #808d93,
+    -4px 3px #cdd2d5,
+    -4px 5px #808d93,
+    -5px 4px #cdd2d5,
+    -5px 6px black,
+    -6px 5px #cdd2d5,
+    -6px 7px #808d93,
+    -7px 6px #cdd2d5,
+    -7px 8px #808d93,
+    -8px 7px #cdd2d5;
+}
+
+#ser{
+    font-size: 90px;
+    padding-left: 60px;
+     padding-right: 60px;
+
+    
+
+}
+
+#email{
+    font-size: 30px;
+    padding-left: 690px;
+}
+
+#photo{
+border-radius: 3%;
+}
+#photo:hover{
+    transform: scale(1.1, 1.1);
+       
+    opacity: 0.5;
+}
